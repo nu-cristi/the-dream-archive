@@ -1,5 +1,5 @@
 <script>
-	import '$lib/styles/reset.css';
+	import '$lib/styles/base.css';
 
 	const { children } = $props();
 </script>

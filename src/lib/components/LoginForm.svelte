@@ -3,7 +3,7 @@
 
 </script>
 
-<div class="login-container">
+<div class="login-form-container">
 	<form class="login-form">
 		<h1>Login</h1>
 
@@ -17,7 +17,7 @@
 			/>
 		</div>
 
-		<div class="form-group">
+		<div class="form-group" style="padding: 20px;">
 			<label for="password">Password</label>
 			<input
 				type="password"
@@ -30,17 +30,9 @@
 		<button type="submit">
 			login
 		</button>
-
-		<div class="links">
-			<a href="/forgot-password">Forgot Password?</a>
-			<a href="/register">Create Account</a>
-		</div>
 	</form>
 </div>
 
 <style>
-    .login-container {
-        display: inline-block;
-        border: 1px solid cadetblue;
-    }
+  
 </style>
