@@ -1,0 +1,27 @@
+/* Define breakpoints using CSS variables */
+:root {
+    --desktop-max-width: 1378px;
+    --small-desktop-max-width: 1160px;
+    --tablet-max-width: 768px;
+    --mobile-max-width: 480px;
+}
+
+@media screen and (max-width: var(--desktop-max-width)) {
+    .onDesktop {
+    }
+}
+
+@media screen and (max-width: var(--small-desktop-max-width)) {
+    .onSmallDesktop {
+    }
+}
+
+@media screen and (max-width: var(--tablet-max-width)) {
+    .onTablet {
+    }
+}
+
+@media screen and (max-width: var(--mobile-max-width)) {
+    .onMobile {
+    }
+}
