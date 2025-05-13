@@ -1,7 +1,7 @@
 <script lang="ts">
   import { enhance } from '$app/forms';
   import { slide } from 'svelte/transition';
-  import { onClickOutside } from '../../utils/hooks//onClickOutside';
+  import { onClickOutside } from '../../utils/hooks/onClickOutside';
 
   export let form;
 
